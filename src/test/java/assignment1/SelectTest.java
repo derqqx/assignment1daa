@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class SelectTest {
-//ап
+//тест
     @Test
     void testDeterministicSelect() {
         Metrics m = new Metrics();
