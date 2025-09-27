@@ -1,6 +1,4 @@
 # Assignment 1
-# Assignment 1
-
 Assignment 1 — Divide & Conquer Algorithms
 1)Architecture
 1.1)MergeSort — sorting by dividing the array into halves, merging with a reusable buffer. For small arrays, the algorithm switches to insertion sort (cutoff optimization).
