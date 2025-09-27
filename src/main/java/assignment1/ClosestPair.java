@@ -3,7 +3,6 @@ package assignment1;
 import java.util.Arrays;
 
 public class ClosestPair {
-
     static class Point {
         int x, y;
         Point(int x, int y) { this.x = x; this.y = y; }
@@ -21,7 +20,6 @@ public class ClosestPair {
         double d1 = divide(pts, l, mid);
         double d2 = divide(pts, mid + 1, r);
         double d = Math.min(d1, d2);
-
         return d;
     }
 
@@ -33,6 +31,7 @@ public class ClosestPair {
                 min = Math.min(min, dist);
             }
         }
+        //тестовая
         return min;
     }
 }
