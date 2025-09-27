@@ -35,7 +35,7 @@ public class QuickSort {
         swap(a, i, r, m);
         return i;
     }
-
+//2
     private static void swap(int[] a, int i, int j, Metrics m) {
         if (i != j) {
             int t = a[i]; a[i] = a[j]; a[j] = t; m.move();
