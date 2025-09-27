@@ -30,7 +30,7 @@ public class MergeSort {
             a[j + 1] = x; m.move();
         }
     }
-
+// про
     private static void merge(int[] a, int l, int m, int r, int[] buf, Metrics mt) {
         int i = l, j = m + 1, k = l;
         while (i <= m && j <= r) {
