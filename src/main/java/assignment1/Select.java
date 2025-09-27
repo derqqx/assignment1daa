@@ -24,7 +24,7 @@ public class Select {
 
         int pivot = (medians.length == 1)
                 ? medians[0]
-                : deterministicSelect(medians, medians.length / 2, m);
+                : deterministicSelect(medians, medians.length / 2, m);//тест арарара
 
         int[] left = Arrays.stream(arr).filter(x -> x < pivot).toArray();
         int[] equal = Arrays.stream(arr).filter(x -> x == pivot).toArray();

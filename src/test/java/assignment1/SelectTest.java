@@ -6,7 +6,6 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class SelectTest {
-
     @Test
     void testDeterministicSelect() {
         Metrics m = new Metrics();
@@ -22,3 +21,5 @@ public class SelectTest {
         assertEquals(sorted[k], result);
     }
 }
+
+// тест
