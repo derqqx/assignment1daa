@@ -17,7 +17,7 @@ public class Main {
             // QuickSort
             runExperiment("quicksort", arr.clone(), n, csv);
 
-            // Select (ищем k-й элемент, k = n/2)
+            // Select
             runExperiment("select", arr.clone(), n, csv);
 
             // Closest Pair
