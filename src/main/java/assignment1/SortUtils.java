@@ -1,5 +1,4 @@
 package assignment1;
-
 import java.util.Random;
 
 public class SortUtils {
