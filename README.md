@@ -1,4 +1,7 @@
 # Assignment 1
+Student: Adilzhan Zhumash
+
+Group:SE-2422
 
 Assignment 1 — Divide & Conquer Algorithms
 1)Architecture
