@@ -4,7 +4,9 @@ Student: Adilzhan Zhumash
 Group:SE-2422
 
 Assignment 1 — Divide & Conquer Algorithms
+
 1)Architecture
+
 1.1)MergeSort — sorting by dividing the array into halves, merging with a reusable buffer. For small arrays, the algorithm switches to insertion sort (cutoff optimization).
 
 1.2)QuickSort — randomized pivot selection; always recurses into the smaller half and processes the larger one iteratively, which keeps recursion depth bounded by O(log n).
@@ -15,26 +17,34 @@ Assignment 1 — Divide & Conquer Algorithms
 
 
 2)Recurrence Analysis
+
 2.1)MergeSort
 •	Recurrence: T(n) = 2T(n/2) + Θ(n)
+
 •	Explanation: each level does Θ(n) work for merging, and there are log n levels of recursion.
+
 •	Result: Θ(n log n)
 
 2.2)QuickSort
 •	Recurrence (average): T(n) = T(n/2) + T(n/2) + Θ(n) → Θ(n log n)
+
 •	Worst case: pivot splits as (n-1, 0) → T(n) = T(n-1) + Θ(n) = Θ(n^2)
+
 •	Randomization + smaller-half recursion keep depth at O(log n) and make the average case dominant.
 
 2.3)Deterministic Select (MoM5)
 •	Recurrence: T(n) = T(n/5) + T(7n/10) + Θ(n)
+
 •	Intuition: at least 30% of elements are discarded each step thanks to a “good” pivot.
+
 •	Solved by Akra–Bazzi: Θ(n)
 
 2.4)Closest Pair of Points
 •	Recurrence: T(n) = 2T(n/2) + Θ(n)
-•	Explanation: sorting + recursive division, then a linear scan of the strip.
-•	Result: Θ(n log n)
 
+•	Explanation: sorting + recursive division, then a linear scan of the strip.
+
+•	Result: Θ(n log n)
 
 3)Results and Discussion
 
